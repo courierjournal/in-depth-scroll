@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "init": "rm -rf .cache && rm -rf dist",
-    "build-embed": "parcel src/index.html",
-    "build": "",
-    "test": "npm run build && npm run "
+    "build-embed": "parcel build src/index.html",
+    "build": "npm run init && npm run build-embed",
+    "dev" : "npm run init && parcel src/index.html",
+    "test": ""
   },
   "author": "",
   "license": "ISC",
