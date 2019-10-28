@@ -1,0 +1,19 @@
+{
+  "name": "in-depth-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "rm -rf .cache && rm -rf dist",
+    "build-embed": "parcel src/index.html",
+    "build": "",
+    "test": "npm run build && npm run "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "intersection-observer": "^0.7.0",
+    "lodash.debounce": "^4.0.8",
+    "scrollama": "^2.1.2"
+  }
+}

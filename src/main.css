@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Unify Sans";
+  src: url("https://cpt-static.gannettdigital.com/universal-web-client/master/latest/gallium/themes/assets/universal/fonts/UnifySans_W_Rg.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Unify Sans";
+  src: url("https://cpt-static.gannettdigital.com/universal-web-client/master/latest/gallium/themes/assets/universal/fonts/UnifySans_W_Bd.woff2")
+    format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "UnifySans-CondensedBold";
+  src: url("https://www.gannett-cdn.com/usat-storytelling/apollo/public/assets/UnifySansCd_Bd.ttf")
+    format("ttf");
+}
+
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  font-family: Unify Sans;
+}
+iframe {
+  border: none;
+  position: fixed;
+  top: 25px;
+}
+#mainbar {
+  position: relative;
+}
+
+article {
+  position: relative;
+}
+
+.step {
+  padding: 10px !important;
+  margin: auto;
+  width: 60vw;
+  max-width: 400px;
+  background-color: white;
+  border: solid gray 1px;
+  height: auto;
+  margin-bottom: 80vh;
+}
+
+.step p {
+  text-align: center;
+}
+
+#scrolly {
+  position: relative;
+}
+
+#firststep {
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 0px !important;
+  left: 0px;
+  transition: 1s;
+  border: none;
+}
+
+.testpixel {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  #seven {
+    margin-bottom: 105vh;
+  }
+
+  #eight {
+    display: none;
+  }
+
+  .testpixel {
+    height: 5px;
+    width: 5px;
+    background-color: transparent;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
